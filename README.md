@@ -68,39 +68,6 @@ public class HelloWorld {
 
 ---
 
-## SVG: Module Flow Diagram
-
-Below is a small SVG showing the high-level flow between core modules.
-
-```html
-<svg xmlns="http://www.w3.org/2000/svg" width="700" height="160" viewBox="0 0 700 160">
-  <style> .box{fill:#fff;stroke:#0f172a;stroke-width:1.5;rx:8;}</style>
-  <rect x="8" y="8" width="684" height="144" rx="10" fill="#f8fafc" stroke="#e2e8f0"/>
-  <rect class="box" x="36" y="36" width="140" height="52" rx="8"/>
-  <text x="106" y="66" font-family="sans-serif" font-size="12" text-anchor="middle">Basics</text>
-
-  <rect class="box" x="220" y="36" width="140" height="52" rx="8"/>
-  <text x="290" y="66" font-family="sans-serif" font-size="12" text-anchor="middle">Control Flow</text>
-
-  <rect class="box" x="404" y="36" width="140" height="52" rx="8"/>
-  <text x="474" y="66" font-family="sans-serif" font-size="12" text-anchor="middle">Data & IO</text>
-
-  <rect class="box" x="288" y="100" width="140" height="36" rx="8"/>
-  <text x="358" y="123" font-family="sans-serif" font-size="12" text-anchor="middle">OOP Intro</text>
-
-  <path d="M176 62 L220 62" stroke="#0f172a" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <path d="M360 62 L404 62" stroke="#0f172a" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
-  <path d="M360 88 L360 100" stroke="#0f172a" stroke-width="1.5" fill="none"/>
-
-  <defs>
-    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#0f172a" />
-    </marker>
-  </defs>
-</svg>
-```
-
----
 
 ## Tips & Resources
 
