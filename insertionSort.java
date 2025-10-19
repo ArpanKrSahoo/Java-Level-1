@@ -7,6 +7,7 @@ public class insertionSort {
 
     public static void main(String[] args) {
         int arr[]={7,8,1,3,2};
+//Time Complexity: O(N2) 
 
         //insertion sort
         for(int i=1;i<arr.length;i++){
